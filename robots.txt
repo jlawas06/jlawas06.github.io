@@ -1,0 +1,25 @@
+# robots.txt for jlawas06.github.io
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /experience
+Allow: /projects
+Allow: /skills
+Allow: /contact
+
+# Prevent access to admin areas if you have any
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+# Allow search engines to access your sitemap
+Sitemap: https://jlawas06.github.io/sitemap.xml
+
+# Prevent duplicate content issues
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+Disallow: /*?*page=
+
+# Prevent indexing of generated files
+Disallow: /*.pdf$
+Disallow: /*.doc$
